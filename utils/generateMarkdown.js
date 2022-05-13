@@ -13,18 +13,20 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
+  ${data.badge}
+
   # **${data.title}**
 
   ## **Description**
   ${data.description}
 
   ## **Table of Contents**
-  [Installation](https://github.com/SD-github21/readme-generator#installation)
-  [Usage](https://github.com/SD-github21/readme-generator#usage)
-  [License](https://github.com/SD-github21/readme-generator#license)
-  [Contributing](https://github.com/SD-github21/readme-generator#contributing)
-  [Tests](https://github.com/SD-github21/readme-generator#tests)
-  [Questions](https://github.com/SD-github21/readme-generator#questions)
+  [Installation](#installation)<br>
+  [Usage](#usage)<br>
+  [License](#license)<br>
+  [Contributing](#contributing)<br>
+  [Tests](#tests)<br>
+  [Questions](#questions)
 
   ## **Installation**
   ${data.installation}
@@ -33,7 +35,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## **License**
-  ${data.license}
+  This project is covered under the following license: ${data.license}
 
   ## **Contributing**
   ${data.contributing}
@@ -42,7 +44,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## **Questions**
-  ${data.questions}
+  ${data.github}
+  [GitHub]{${data.link})
 
 `;
 }
