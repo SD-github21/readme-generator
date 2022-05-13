@@ -46,6 +46,7 @@ function generateMarkdown(data) {
   ## **Questions**
   ${data.github}
   [GitHub]{${data.link})
+  <a href="https://www.google.com/" target="_blank">Google</a>
 
 `;
 }
