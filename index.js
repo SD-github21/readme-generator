@@ -51,12 +51,8 @@ const questions = () => {
             type: "input",
             name: "link",
             message: "Enter the GitHub link to your project"
-        }
-
-        
-
-    ]);
-
+        }    
+    ])
 }
 
 // TODO: Create a function to write README file
