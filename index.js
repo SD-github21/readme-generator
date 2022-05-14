@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-const generateMarkdown = require("./utils/generateMarkdown.js")
+const { generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection } = require("./utils/generateMarkdown.js")
 const inquirer = require("inquirer");
+
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -30,7 +31,7 @@ const questions = () => {
             type: "checkbox",
             name: "license",
             message: "Choose a license for your project",
-            choices: ["Apache License 2.0", "GNU GPLv2", "GNU GPLv3", "MIT", "ISC"]
+            choices: ["Apache License 2.0", "GNU GPLv2", "GNU GPLv3", "MIT", "ISC", "none"]
         },
         {
             type: "input",
@@ -71,8 +72,15 @@ function writeToFile(fileName, data) {
 function init() {
     questions()
     .then(data => {
-        writeToFile('README.md', data)
+        writeToFile('README.md', data);
+        generateMarkdown(data);
+        renderLicenseBadge(data);
+        renderLicenseLink(data);
+        renderLicenseSection(data);
     })
+    .catch(err => {
+        console.log(err);
+});
 }
 
 // Function call to initialize app
