@@ -1,7 +1,7 @@
 # **README Generator**
 
 ## **Overview**
-The purpose of this project was to create an automated program that could generate README.md files for projects. This program would serve to assist developers with quickly and efficiently generating template README.md files for new projects. The User Story and Acceptance Criteria are as follows:
+The purpose of this project was to create an automated program that could generate README.md files for projects. This program would serve to assist developers with quickly and efficiently generating template README.md files for new projects. 
 
 ## **Table of Contents**
 [User Story](#user-story)<br>
