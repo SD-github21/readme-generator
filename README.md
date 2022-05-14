@@ -88,4 +88,4 @@ N/A
  ### **Deliverable**
 
 **Video of README Generator:**<br>
-![Video](https://drive.google.com/file/d/16CgaN9137HeD_okBOYiGfoVxlhSmZtjf/view)
+![Video](images/README_video.mp4)
