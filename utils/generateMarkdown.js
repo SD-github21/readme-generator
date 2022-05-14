@@ -1,5 +1,3 @@
-
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -22,8 +20,8 @@ function renderLicenseBadge(license) {
   }
   else {
     return ``;
-  }
-}
+  };
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -52,9 +50,8 @@ function renderLicenseLink(license) {
   else {
     let link = "";
     return link;
-
-  }
-}
+  };
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -62,9 +59,8 @@ function renderLicenseSection(license) {
   return `
   This project is covered under the following license: ${license}<br>
   ${ renderLicenseLink(license) }
- 
-  `;
-}
+   `;
+};
 
 
 
@@ -104,11 +100,10 @@ function generateMarkdown(data) {
   ${tests}
 
   ## **Questions**
+  Please feel free to send comments and questions to: ${email}<br>
   GitHub username: ${github}<br>
   GitHub link: <a href={${gitlink}} target="_blank">GitHub Link</a><br>
-  Please feel free to send all comments and any questions to: ${email}
-
 `;
-}
+};
 
 module.exports = { generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection };
