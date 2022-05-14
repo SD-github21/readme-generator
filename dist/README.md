@@ -18,7 +18,7 @@
   Insert installation instructions here
 
   ## **Usage**
-  Insert instructions and examples for user here
+  Insert instructions and examples for user
 
   ## **License**
   
