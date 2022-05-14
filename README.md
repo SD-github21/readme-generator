@@ -57,7 +57,7 @@ THEN I am taken to the corresponding section of the README<br>
 
 (3) Once all questions are answered, the README.md file will be automatically generated and stored in the "dist" folder of the project repository.<br>
 
-(4) A sample README.md file has been stored within this repository and can be found ![here](dist/README.md). Below is a screen shot of a sample README.md file:
+(4) A sample README.md file has been stored within this repository and can be found [here](dist/README.md). Below is a screen shot of a sample README.md file:
 
 ![alt text](images/screen_shot.png)
 
