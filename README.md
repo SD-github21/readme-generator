@@ -41,13 +41,9 @@ THEN I am taken to the corresponding section of the README<br>
 ### **Installation**
 (1) Clone this repository on your local machine<br>
 (2) Navigate to the repository folder<br>
-(3) Type the following command in the command line to install npm:<br>
+(3) Type the following command in the command line to download the inquirer package:<br>
 
-    npm init -y
-
-(4) Type the following command in the command line to download the inquirer package:<br>
-
-    npm install inquirer
+    npm i
 
 ### **Usage**
 (1) Navigate to the folder in which the project files are stored and run the following in the command line:<br>
