@@ -5,29 +5,23 @@
 function renderLicenseBadge(license) {
 
   if (license == "Apache License 2.0") {
-    let badge = 'https://img.shields.io/badge/License-Apache_2.0-success';
-    return badge;       
+    return `![License](https://img.shields.io/badge/License-Apache_2.0-success)`;       
 
   } else if (license == "GNU GPLv2") {
-    let badge = 'https://img.shields.io/badge/License-GPL_v2-red'; 
-    return badge;
+    return `![License](https://img.shields.io/badge/License-GPL_v2-red)`;       
 
   } else if (license == "GNU GPLv3") {
-    let badge = 'https://img.shields.io/badge/License-GPL_v3-important';
-    return badge;
+    return `![License](https://img.shields.io/badge/License-GPL_v3-important)`;       
 
   } else if (license == "MIT") {
-    let badge = 'https://img.shields.io/badge/License-MIT-informational';
-    return badge;
+    return `![License](https://img.shields.io/badge/License-MIT-informational)`;       
+    
+  } else if (license == "ISC") {
+    return `![License](https://img.shields.io/badge/License-ISC-ff69b4)`;       
 
-  } else if (license === "ISC") {
-    let badge = 'https://img.shields.io/badge/License-ISC-ff69b4';
-    return badge;
   }
   else {
-    let badge = "";
-    return badge;
-
+    return ``;
   }
 }
 
@@ -36,7 +30,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   if (license == "Apache License 2.0") {
-    let link = "https://opensource.org/licenses/Apache-2.0";
+    let link = "https://www.apache.org/licenses/LICENSE-2.0";
     return link;       
 
   } else if (license == "GNU GPLv2") {
@@ -66,8 +60,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `
-  This project is covered under the following license: ${license}
-  ${ renderLicenseLink }
+  This project is covered under the following license: ${license}<br>
+  ${ renderLicenseLink(license) }
  
   `;
 }
@@ -79,7 +73,7 @@ function generateMarkdown(data) {
   const { title, description, installation, usage, license, contributing, tests, github  } = data;
   
   return `
-  ![License](${renderLicenseBadge(license)})
+  ${ renderLicenseBadge(license) }
 
   # **${title}**
 
