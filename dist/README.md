@@ -6,7 +6,6 @@
   ## **Description**
   The purpose of this project is to efficiently and quickly generate template README.md files for new projects
 
-
   ## **Table of Contents**
   [Installation](#installation)<br>
   [Usage](#usage)<br>

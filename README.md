@@ -47,7 +47,7 @@ THEN I am taken to the corresponding section of the README<br>
 
 (4) Type the following command in the command line to download the inquirer package:<br>
 
-    npm install inqirer
+    npm install inquirer
 
 ### **Usage**
 (1) Navigate to the folder in which the project files are stored and run the following in the command line:<br>
@@ -56,6 +56,8 @@ THEN I am taken to the corresponding section of the README<br>
 
 
 (2) Users will then be asked to complete a number of questions about their project. A sample screen shot of the application appears below: <br>
+
+![alt text](images/screen_shot_application.png)
 
 (3) Once all questions are answered, the README.md file will be automatically generated and stored in the "dist" folder of the project repository.<br>
 
@@ -75,7 +77,7 @@ N/A
 ### **Assets Utilized** 
 
 - index.js
-- generateMarkdown
+- generateMarkdown.js
 
 ### **Built With**
 * JavaScript
@@ -86,4 +88,4 @@ N/A
  ### **Deliverable**
 
 **Video of README Generator:**<br>
-![](images/video.mp4)
+![alt text](images/video.mp4)
