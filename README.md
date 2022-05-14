@@ -88,4 +88,6 @@ N/A
  ### **Deliverable**
 
 **Video of README Generator:**<br>
-![Video](images/README_video.mp4)
+
+https://user-images.githubusercontent.com/85533099/168413156-665ddaac-3628-4cd3-b4f5-93f958cc29fe.mp4
+
