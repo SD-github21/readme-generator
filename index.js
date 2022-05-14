@@ -50,7 +50,7 @@ const questions = () => {
         {
             type: "input",
             name: "gitlink",
-            message: "Enter the GitHub link to your project:"
+            message: "Enter the link to your GitHub profile:"
         },
         {
             type: "input",

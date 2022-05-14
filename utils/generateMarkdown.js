@@ -100,9 +100,11 @@ function generateMarkdown(data) {
   ${tests}
 
   ## **Questions**
-  Please feel free to send comments and questions to: ${email}<br>
+  Please feel free to send comments and questions to: <br>
   GitHub username: ${github}<br>
-  GitHub link: <a href={${gitlink}} target="_blank">GitHub Link</a><br>
+  GitHub profile link: <a href={${gitlink}} target="_blank">GitHub Profile Link</a><br>
+  ${email}<br>
+
 `;
 };
 
