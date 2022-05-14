@@ -106,7 +106,7 @@ function generateMarkdown(data) {
   ## **Questions**
   GitHub username: ${github}<br>
   GitHub link: <a href={${gitlink}} target="_blank">GitHub Link</a><br>
-  Please feel free to send all comments and questions to: ${email}
+  Please feel free to send all comments and any questions to: ${email}
 
 `;
 }
