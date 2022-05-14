@@ -32,7 +32,7 @@ THEN this information is added to the sections of the README entitled Descriptio
 WHEN I choose a license for my application from a list of options<br>
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under<br>
 WHEN I enter my GitHub username<br>
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile<br>
 WHEN I enter my email address<br>
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions<br>
 WHEN I click on the links in the Table of Contents<br>
@@ -57,7 +57,7 @@ THEN I am taken to the corresponding section of the README<br>
 
 (3) Once all questions are answered, the README.md file will be automatically generated and stored in the "dist" folder of the project repository.<br>
 
-(4) A sample README.md file has been stored within this repository and can be found here. Below is a screen shot of a sample README.md file:
+(4) A sample README.md file has been stored within this repository and can be found ![here](dist/README.md). Below is a screen shot of a sample README.md file:
 
 ![alt text](images/screen_shot.png)
 
