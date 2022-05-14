@@ -50,8 +50,13 @@ const questions = () => {
         },
         {
             type: "input",
-            name: "link",
+            name: "gitlink",
             message: "Enter the GitHub link to your project"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Enter your email address that you want to use for communications about this project"
         }    
     ])
 }
