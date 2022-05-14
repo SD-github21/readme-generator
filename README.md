@@ -61,6 +61,7 @@ THEN I am taken to the corresponding section of the README<br>
 
 (4) A sample README.md file has been stored within this repository and can be found here. Below is a screen shot of a sample README.md file:
 
+![alt text](images/screen_shot.png)
 
 ### **License**
 There is no license for this project
@@ -85,4 +86,4 @@ N/A
  ### **Deliverable**
 
 **Video of README Generator:**<br>
-![alt text](assets/images/)
+![](images/video.mp4)

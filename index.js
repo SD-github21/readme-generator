@@ -59,7 +59,7 @@ const questions = () => {
 function writeToFile(fileName, data) {
     fs.writeFile('./dist/'+ fileName , generateMarkdown(data), err => {
         if (err) throw err;
-        console.log('README generation complete! Check out README.md to see the ouput!');
+        console.log('README generation complete! Check out README.md to see the output!');
     });
 };
 
