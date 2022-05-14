@@ -43,7 +43,7 @@ THEN I am taken to the corresponding section of the README<br>
 (2) Navigate to the repository folder<br>
 (3) Type the following command in the command line to download the inquirer package:<br>
 
-    npm i
+    npm install inquirer
 
 ### **Usage**
 (1) Navigate to the folder in which the project files are stored and run the following in the command line:<br>
