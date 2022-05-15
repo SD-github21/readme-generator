@@ -39,14 +39,15 @@ WHEN I click on the links in the Table of Contents<br>
 THEN I am taken to the corresponding section of the README<br>
 
 ### **Installation**
-(1) Clone this repository on your local machine<br>
-(2) Navigate to the repository folder<br>
-(3) Type the following command in the command line to download the inquirer package:<br>
+(1) Click [here](https://nodejs.org/en/) to install Node.js on your local machine if you haven't already done so. Choose the latest LTS version for the most recent stable release.<br> 
+(2) Clone this repository on your local machine<br>
+(3) Navigate to the repository folder<br>
+(4) Type the following command in the command line to download the inquirer package:<br>
 
     npm install inquirer
 
 ### **Usage**
-(1) Navigate to the folder in which the project files are stored and run the following in the command line:<br>
+(1) Once the installation instructions above have been completed, navigate to the folder in which the project files are stored and run the following in the command line:<br>
 
     node index.js
 
