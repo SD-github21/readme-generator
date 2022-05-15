@@ -82,9 +82,7 @@ N/A
 * npm
 * Inquirer.js
  
- ### **Deliverable**
-
-**Video of README Generator:**<br>
+ ### **Video of README Generator**
 
 https://user-images.githubusercontent.com/85533099/168413156-665ddaac-3628-4cd3-b4f5-93f958cc29fe.mp4
 
